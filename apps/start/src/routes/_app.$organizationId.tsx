@@ -155,7 +155,7 @@ function Component() {
         FREE_PRODUCT_IDS.includes(organization.subscriptionProductId) && (
           <Alert
             title="Free plan is removed"
-            description="We've removed the free plan. You can upgrade to a paid plan to continue using OpenPanel."
+            description="We've removed the free plan. You can upgrade to a paid plan to continue using Devbaytech."
             className="bg-orange-400/40 border-orange-400/50"
           >
             <LinkButton
