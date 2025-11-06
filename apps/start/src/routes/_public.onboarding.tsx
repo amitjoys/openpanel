@@ -65,7 +65,7 @@ function Component() {
           accept the{' '}
           <a
             target="_blank"
-            href="https://openpanel.dev/terms"
+            href="https://devbaytech.com/terms"
             rel="noreferrer"
             className="underline hover:text-foreground transition-colors"
           >
@@ -74,7 +74,7 @@ function Component() {
           and{' '}
           <a
             target="_blank"
-            href="https://openpanel.dev/privacy"
+            href="https://devbaytech.com/privacy"
             rel="noreferrer"
             className="underline hover:text-foreground transition-colors"
           >
