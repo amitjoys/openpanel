@@ -75,8 +75,8 @@ code {
 }
 
 .dark {
-  /* Core colors converted from HSL to OKLCH for dark mode using convert-to-oklch tool */
-  --highlight: oklch(61.3% 0.21 263); /* hsl(221.44, 100%, 62.04%) */
+  /* Devbaytech dark mode colors */
+  --highlight: oklch(72% 0.22 20); /* Brighter Devbaytech red for dark mode */
   
   /* def- color scale converted from HSL to OKLCH for dark mode */
   --def-100: oklch(19.3% 0 0); /* hsl(0, 0%, 8%) -> #0f0f0f */
@@ -92,19 +92,19 @@ code {
   --card-foreground: oklch(98.5% 0 0); /* hsl(0, 0%, 98%) -> #fafafa */
   --popover: oklch(21.6% 0 0); /* hsl(0, 0%, 10%) -> #1a1a1a */
   --popover-foreground: oklch(98.5% 0 0); /* hsl(0, 0%, 98%) -> #fafafa */
-  --primary: oklch(98.5% 0 0); /* hsl(0, 0%, 98%) -> #fafafa */
-  --primary-foreground: oklch(22.9% 0 0); /* hsl(0, 0%, 11.2%) -> #1c1c1c */
-  --secondary: oklch(27.1% 0 0); /* hsl(0, 0%, 15.1%) -> #262626 */
-  --secondary-foreground: oklch(98.5% 0 0); /* hsl(0, 0%, 98%) -> #fafafa */
+  --primary: oklch(72% 0.22 20); /* Devbaytech red stays vibrant */
+  --primary-foreground: oklch(100% 0 0); /* White on red */
+  --secondary: oklch(45% 0.1 266); /* Lighter Devbaytech blue for dark */
+  --secondary-foreground: oklch(100% 0 0); /* White on blue */
   --muted: oklch(27.1% 0 0); /* hsl(0, 0%, 15.1%) -> #262626 */
   --muted-foreground: oklch(72.4% 0 0); /* hsl(0, 0%, 65%) */
-  --accent: oklch(27.1% 0 0); /* hsl(0, 0%, 15.1%) -> #262626 */
-  --accent-foreground: oklch(98.5% 0 0); /* hsl(0, 0%, 98%) -> #fafafa */
+  --accent: oklch(65% 0.15 300); /* Lighter purple for dark mode */
+  --accent-foreground: oklch(100% 0 0); /* White on purple */
   --destructive: oklch(63.7% 0.21 25.3); /* hsl(0, 84.2%, 60.2%) -> #F2677D */
   --destructive-foreground: oklch(96.9% 0.02 17.4); /* hsl(0, 100%, 97.25%) -> #F8F9FB */
   --border: oklch(27.1% 0 0); /* hsl(0, 0%, 15.1%) -> #262626 */
   --input: oklch(27.1% 0 0); /* hsl(0, 0%, 15.1%) -> #262626 */
-  --ring: oklch(87.6% 0 0); /* hsl(0, 0%, 83.9%) -> #d6d6d6 */
+  --ring: oklch(72% 0.22 20); /* Devbaytech red for focus rings */
 }
 
 @theme {
