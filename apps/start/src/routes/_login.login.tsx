@@ -51,9 +51,9 @@ function LoginPage() {
                   Contact us if you have any issues.{' '}
                   <a
                     className="underline font-medium"
-                    href={`mailto:hello@openpanel.dev?subject=Login%20Issue%20-%20Correlation%20ID%3A%20${correlationId}`}
+                    href={`mailto:hello@devbaytech.com?subject=Login%20Issue%20-%20Correlation%20ID%3A%20${correlationId}`}
                   >
-                    hello[at]openpanel.dev
+                    hello[at]devbaytech.com
                   </a>
                 </p>
               </>
