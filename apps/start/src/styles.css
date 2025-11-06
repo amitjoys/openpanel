@@ -56,12 +56,12 @@ code {
   --input: oklch(92.9% 0.01 256); /* hsl(214.3, 31.8%, 91.4%) -> #E8EBF1 */
   --ring: oklch(67.8% 0.22 20); /* Devbaytech red for focus rings */
   
-  /* Chart colors converted to OKLCH for consistency */
-  --chart-0: oklch(54.6% 0.22 263); /* #2563EB */
-  --chart-1: oklch(72.2% 0.17 33.7); /* #ff7557 */
-  --chart-2: oklch(84.7% 0.09 188); /* #7fe1d8 */
+  /* Chart colors - Devbaytech branded palette */
+  --chart-0: oklch(67.8% 0.22 20); /* Devbaytech red */
+  --chart-1: oklch(34.4% 0.07 266); /* Devbaytech blue */
+  --chart-2: oklch(60% 0.15 300); /* Devbaytech purple */
   --chart-3: oklch(82.9% 0.15 82); /* #f8bc3c */
-  --chart-4: oklch(57.8% 0.12 6.72); /* #b3596e */
+  --chart-4: oklch(72.2% 0.17 33.7); /* #ff7557 */
   --chart-5: oklch(77.3% 0.11 241); /* #72bef4 */
   --chart-6: oklch(82.5% 0.12 56.4); /* #ffb27a */
   --chart-7: oklch(55.3% 0.1 226); /* #0f7ea0 */
