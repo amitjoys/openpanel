@@ -19,8 +19,13 @@ code {
 }
 
 :root {
-  /* Core colors converted from HSL to OKLCH using convert-to-oklch tool */
-  --highlight: oklch(55.1% 0.21 262); /* hsl(220, 84%, 53%) -> #2266ec */
+  /* Devbaytech Brand Colors - ZoomInfo inspired */
+  --devbaytech-red: oklch(67.8% 0.22 20); /* #FF5A5F - Primary brand color */
+  --devbaytech-blue: oklch(34.4% 0.07 266); /* #2A2A4A - Secondary brand color */
+  --devbaytech-purple: oklch(60% 0.15 300); /* Purple support color */
+  
+  /* Core colors - adapted to Devbaytech theme */
+  --highlight: oklch(67.8% 0.22 20); /* Using Devbaytech red as highlight */
   
   /* def- color scale converted from HSL to OKLCH */
   --def-100: oklch(98.4% 0 248); /* hsl(210, 40%, 98%) -> #F0F4F9 */
@@ -29,27 +34,27 @@ code {
   --def-400: oklch(80.3% 0 248); /* hsl(210, 9.08%, 75.05%) -> #B3BDC7 */
   
   /* foregroundish converted from HSL to OKLCH */
-  --foregroundish: oklch(34.4% 0 273); /* hsl(226.49, 3.06%, 22.62%) */
+  --foregroundish: oklch(34.4% 0.07 266); /* Using Devbaytech blue */
 
   --background: oklch(100% 0 0); /* hsl(0, 0%, 100%) -> #FFFFFF */
-  --foreground: oklch(13.7% 0.04 259); /* hsl(222.2, 84%, 4.9%) -> #0C162A */
+  --foreground: oklch(34.4% 0.07 266); /* Devbaytech blue for text */
   --card: oklch(100% 0 0); /* hsl(0, 0%, 100%) -> #FFFFFF */
-  --card-foreground: oklch(13.7% 0.04 259); /* hsl(222.2, 84%, 4.9%) -> #0C162A */
+  --card-foreground: oklch(34.4% 0.07 266); /* Devbaytech blue */
   --popover: oklch(100% 0 0); /* hsl(0, 0%, 100%) -> #FFFFFF */
-  --popover-foreground: oklch(13.7% 0.04 259); /* hsl(222.2, 84%, 4.9%) -> #0C162A */
-  --primary: oklch(20.8% 0.04 266); /* hsl(222.2, 47.4%, 11.2%) -> #163049 */
-  --primary-foreground: oklch(98.4% 0 248); /* hsl(210, 40%, 98%) -> #F0F4F9 */
-  --secondary: oklch(96.8% 0.01 248); /* hsl(210, 40%, 96.1%) -> #E7ECF2 */
-  --secondary-foreground: oklch(20.8% 0.04 266); /* hsl(222.2, 47.4%, 11.2%) -> #163049 */
+  --popover-foreground: oklch(34.4% 0.07 266); /* Devbaytech blue */
+  --primary: oklch(67.8% 0.22 20); /* Devbaytech red - primary */
+  --primary-foreground: oklch(100% 0 0); /* White text on red */
+  --secondary: oklch(34.4% 0.07 266); /* Devbaytech blue - secondary */
+  --secondary-foreground: oklch(100% 0 0); /* White text on blue */
   --muted: oklch(96.8% 0.01 248); /* hsl(210, 40%, 96.1%) -> #E7ECF2 */
   --muted-foreground: oklch(55.5% 0.04 257); /* hsl(215.4, 16.3%, 46.9%) -> #798290 */
-  --accent: oklch(96.8% 0.01 248); /* hsl(210, 40%, 96.1%) -> #E7ECF2 */
-  --accent-foreground: oklch(20.8% 0.04 266); /* hsl(222.2, 47.4%, 11.2%) -> #163049 */
+  --accent: oklch(60% 0.15 300); /* Devbaytech purple - accent */
+  --accent-foreground: oklch(100% 0 0); /* White text on purple */
   --destructive: oklch(63.7% 0.21 25.3); /* hsl(0, 84.2%, 60.2%) -> #F2677D */
   --destructive-foreground: oklch(96.9% 0.02 17.4); /* hsl(0, 100%, 97.25%) -> #F8F9FB */
   --border: oklch(92.9% 0.01 256); /* hsl(214.3, 31.8%, 91.4%) -> #E8EBF1 */
   --input: oklch(92.9% 0.01 256); /* hsl(214.3, 31.8%, 91.4%) -> #E8EBF1 */
-  --ring: oklch(86.9% 0.02 253); /* hsl(212.73, 26.83%, 83.92%) -> #CDD6E2 */
+  --ring: oklch(67.8% 0.22 20); /* Devbaytech red for focus rings */
   
   /* Chart colors converted to OKLCH for consistency */
   --chart-0: oklch(54.6% 0.22 263); /* #2563EB */
