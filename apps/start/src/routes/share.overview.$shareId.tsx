@@ -84,12 +84,12 @@ function RouteComponent() {
             <h1 className="text-xl font-medium">{share.project?.name}</h1>
           </div>
           <a
-            href="https://openpanel.dev?utm_source=openpanel.dev&utm_medium=share"
+            href="https://devbaytech.com?utm_source=devbaytech.com&utm_medium=share"
             className="col gap-1 items-end"
-            title="OpenPanel"
+            title="Devbaytech"
           >
             <span className="text-xs">POWERED BY</span>
-            <span className="text-xl font-medium">openpanel.dev</span>
+            <span className="text-xl font-medium">devbaytech.com</span>
           </a>
         </div>
       )}
