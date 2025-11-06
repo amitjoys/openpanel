@@ -60,7 +60,7 @@ function LandingPage() {
         <div className="col gap-4">
           <LogoSquare className="w-full max-w-24" />
           <PageHeader
-            title="Welcome to OpenPanel.dev"
+            title="Welcome to Devbaytech"
             description="The best web and product analytics tool out there (our honest opinion)."
           />
         </div>
