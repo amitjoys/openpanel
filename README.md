@@ -1,29 +1,26 @@
 ![hero](apps/public/public/ogimage.jpg)
 
 <p align="center">
-	<h1 align="center"><b>Openpanel</b></h1>
+        <h1 align="center"><b>Devbaytech</b></h1>
 <p align="center">
-    An open-source alternative to Mixpanel
+    An open-source analytics platform for modern businesses
     <br />
     <br />
-    <a href="https://openpanel.dev">Website</a>
+    <a href="https://devbaytech.com">Website</a>
     ·
-    <a href="https://openpanel.dev/docs">Docs</a>
+    <a href="https://devbaytech.com/docs">Docs</a>
     ·
-    <a href="https://dashboard.openpanel.dev">Sign in</a>
+    <a href="https://dashboard.devbaytech.com">Sign in</a>
     ·
-    <a href="https://go.openpanel.dev/discord">Discord</a>
+    <a href="https://discord.gg/devbaytech">Discord</a>
     ·
-    <a href="https://twitter.com/OpenPanelDev">X/Twitter</a>
-    ·
-    <a href="https://twitter.com/CarlLindesvard">Creator</a>
-    ·
+    <a href="https://twitter.com/Devbaytech">X/Twitter</a>
   </p>
   <br />
   <br />
 </p>
   
-Openpanel is an open-source web and product analytics platform that combines the power of Mixpanel with the ease of Plausible and one of the best Google Analytics replacements.
+Devbaytech is an open-source web and product analytics platform that combines the power of Mixpanel with the ease of Plausible and one of the best Google Analytics replacements.
 
 ## ✨ Features
 
@@ -40,8 +37,8 @@ Openpanel is an open-source web and product analytics platform that combines the
 
 ## 📊 Analytics Platform Comparison
 
-| Feature                                | OpenPanel | Mixpanel | GA4       | Plausible |
-|----------------------------------------|-----------|----------|-----------|-----------|
+| Feature                                | Devbaytech | Mixpanel | GA4       | Plausible |
+|----------------------------------------|-----------|----------|-----------|--------|
 | ✅ Open-source                         | ✅         | ❌        | ❌        | ✅         |
 | 🧩 Self-hosting supported              | ✅         | ❌        | ❌        | ✅         |
 | 🔒 Cookieless by default               | ✅         | ❌        | ❌        | ✅         |
@@ -78,13 +75,13 @@ Openpanel is an open-source web and product analytics platform that combines the
 
 ## Self-hosting
 
-OpenPanel can be self-hosted and we have tried to make it as simple as possible.
+Devbaytech can be self-hosted and we have tried to make it as simple as possible.
 
-You can find the how to [here](https://openpanel.dev/docs/self-hosting/self-hosting)
+You can find the how to [here](https://devbaytech.com/docs/self-hosting/self-hosting)
 
 **Give us a star if you like it!**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Openpanel-dev/openpanel&type=Date)](https://star-history.com/#Openpanel-dev/openpanel&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Devbaytech/devbaytech&type=Date)](https://star-history.com/#Devbaytech/devbaytech&Date)
 
 ## Development
 
@@ -95,7 +92,24 @@ You can find the how to [here](https://openpanel.dev/docs/self-hosting/self-host
 - Node
 - pnpm
 
-### Start
+### Quick Start with Auto-Deploy Script
+
+```bash
+# Make the deploy script executable
+chmod +x deploy.sh
+
+# Run the deployment script (auto-detects and installs dependencies)
+./deploy.sh
+```
+
+The deployment script will automatically:
+- Detect your environment (Codespaces/Ubuntu VM)
+- Install missing dependencies (Node.js, pnpm, Docker)
+- Setup databases (PostgreSQL, ClickHouse, Redis)
+- Initialize and migrate databases
+- Start all services
+
+### Manual Start
 
 ```bash
 pnpm dock:up
@@ -111,3 +125,16 @@ You can now access the following:
 - Bullboard (queue): http://localhost:9999
 - `pnpm dock:ch` to access clickhouse terminal
 - `pnpm dock:redis` to access redis terminal
+
+### Default Credentials
+
+- Email: admin@devbaytech.com
+- Password: admin123
+
+## License
+
+MIT
+
+## Contact
+
+For support, email hello@devbaytech.com

@@ -8,8 +8,8 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
  * Docs Layout: app/docs/layout.tsx
  */
 
-export const siteName = 'OpenPanel';
-export const baseUrl = 'https://openpanel.dev';
+export const siteName = 'Devbaytech';
+export const baseUrl = 'https://devbaytech.com';
 export const url = (path: string) => `${baseUrl}${path}`;
 export const baseOptions: BaseLayoutProps = {
   nav: {
@@ -45,13 +45,8 @@ export const baseOptions: BaseLayoutProps = {
 
 export const authors = [
   {
-    name: 'OpenPanel Team',
-    url: 'https://openpanel.com',
-  },
-  {
-    name: 'Carl-Gerhard Lindesvärd',
-    url: 'https://openpanel.com',
-    image: '/twitter-carl.jpg',
+    name: 'Devbaytech Team',
+    url: 'https://devbaytech.com',
   },
 ];
 
